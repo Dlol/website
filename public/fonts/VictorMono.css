@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Victor Mono';
+    src: url(VictorMono/VictorMono-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url(VictorMono/VictorMono-Italic.woff);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url(VictorMono/VictorMono-Bold.woff);
+    font-weight: bold;
+}

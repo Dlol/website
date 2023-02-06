@@ -1,0 +1,52 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import '../styles/homePage.css'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+		<script src="https://kit.fontawesome.com/d921b3e452.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="fancyBg.css">
+	</head>
+	<body class="bg">
+		<header>
+			<a href="https://dlolmusic.tumblr.com">
+				<i class="fa-brands fa-tumblr"></i>
+			</a>
+			<h1>dlol</h1>
+			<a href="https://github.com/dlol">
+				<i class="fa-brands fa-github"></i>
+			</a>
+		</header>
+
+		<main>
+			<section id="mainSelections">
+				<a class="card">
+					<span class="material-symbols-outlined">power</span>
+					Plugins
+				</a>
+				<a class="card">
+					<span class="material-symbols-outlined">edit</span>
+					Writing
+				</a>
+				<a class="card">
+					<span class="material-symbols-outlined">radio</span>
+					Music
+				</a>
+			</section>
+
+			<section id="bottomTwo">
+				<a class="card" href="/about/">
+					About
+				</a>
+				<a class="card" href="/blog/">
+					Blog
+				</a>
+			</section>
+		</main>
+	</body>
+</html>
